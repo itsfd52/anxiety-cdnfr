@@ -92,7 +92,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `clearText()`
 
-n3: Bienvenue! Ceci es moins comme un "jeu" et plus comme un historie interactive. J'espère que tu aimeras lire, sucka!
+n3: Bienvenue! Ceci es moins comme un "jeu" et plus comme un histoire interactive. J'espère que tu aimeras lire, sucka!
 
 n3: Alors, avant que nous départ, before we start, comment voulez-vous lire?
 
@@ -100,7 +100,7 @@ n3: Alors, avant que nous départ, before we start, comment voulez-vous lire?
 
 # intro-start-2
 
-n3: Bon! Note: to peux toujours change options avec l'icône ⚙ ci-dessous. Et, le jeu game va save automatiquement au chaque chapitre!
+n3: Bon! Note: tu peux toujours change options avec l'icône ⚙ ci-dessous. Et, le jeu game va save automatiquement au chaque chapitre!
 
 n3: Maintenant, nous commence notre histoire...
 
