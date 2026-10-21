@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: ET CECI ES L'ANXIÉTÉ DE LUI
 
-n: _YOU_ ARE THE ANXIETY
+n: TU ES L'ANXIÉTÉ
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -186,17 +186,17 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: Super, mon loup es de retour, faaaaantastique.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: TON TÂCHE VA ÊTRE DE PROTECTRE VOTRE HUMAIN CONTRE LE DANGER
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: EN FAIT, LEUR SANDWICH EST *DANGEREUX*!
 
-n: QUICK, WARN THEM!
+n: RAPIDEMENT, DIS-LUI!
 
 ```
 sfx("squeak");
@@ -204,21 +204,21 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: HUMAIN! Entends, nous sommes en danger! Le danger est...
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
+n4: (LAISSE _TON_ ANXÉTÉ CHOISIR! CHOISIS CE QUI RESEMBLE TON ANXIÉTÉ LE PLUS!)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[On manges tout seul pour diner! Encore!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[Nous ne sommes pas occupés quand on mangeons!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[Ce pain blanc va nous empoisonner!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
