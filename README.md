@@ -1,6 +1,6 @@
 ![](https://ncase.me/anxiety/sharing/banner.png)
 
-# [Jouez ici!]([https://ncase.me/anxiety/](https://itsfd52.github.io/anxiety-cdnfr/))
+# [Jouez ici!](https://itsfd52.github.io/anxiety-cdnfr/))
 # [Voir le original ici!](https://ncase.me/anxiety/)
 
 ## Progress
