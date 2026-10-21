@@ -24,17 +24,17 @@ n: TU ES L'ANXIÉTÉ
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: Oh, regarde! On es de retour encore?
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: TON TÂCHE VA ÊTRE DE PROTECTRE VOTRE HUMAIN CONTRE LE *DANGER*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: EN FAIT, REJOUER CE JEU EST *DANGEREUX*
 
-n: QUICK, WARN THEM!
+n: RAPIDEMENT, DIS-LUI!
 
 ```
 sfx("squeak");
@@ -42,11 +42,11 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: HUMAIN! Attends, nous sommes en danger! Le jouer...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[...a encore nous faire souffrir!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...ne trouvera pas de nouvelle fin!](#act1_replay_alternate)
 
 [...will get ludonarrative dissonance!](#act1_replay_dissonance)
 
@@ -141,7 +141,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MOURIIIIIIIIIIIIIR
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -170,7 +170,7 @@ h: Okay let's get back into character.
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (LAISSE _TON_ ANXÉTÉ BLA BLA BLA RESEMBLE _TON_ ANXIÉTÉ LE PLUS BLA BLA TU SAVEZ COMMENT ÇA MARCHE)
 
 ```
 sfx("squeak");
@@ -190,7 +190,7 @@ h: Super, mon loup es de retour, faaaaantastique.
 
 `hong({eyes:"0_neutral"})`
 
-n: TON TÂCHE VA ÊTRE DE PROTECTRE VOTRE HUMAIN CONTRE LE DANGER
+n: TON TÂCHE VA ÊTRE DE PROTECTRE VOTRE HUMAIN CONTRE LE *DANGER*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
@@ -204,7 +204,7 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: HUMAIN! Entends, nous sommes en danger! Le danger est...
+b: HUMAIN! Attends, nous sommes en danger! Le danger est...
 
 `bb({body:"squeeze"})`
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: Savais-tu que la solitude est aussi associée à mourir jeune que le fait de fumer 15 cigarettes par jour?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -237,17 +237,17 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: Euh.. merci d'avoir cité ton sources mais--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna-
+b: Ce qui veut dire que si on ne trouve pas d'a *tout de suite* on va-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MOURIIIIIIIIIIIIIR
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: TU AS UTILISÉ *LA PEUR D'ÊTRE TOUT SEUL*
 
 (#act1b)
 
@@ -291,7 +291,7 @@ bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MOURIIIIIIIIIIIIIR
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -304,7 +304,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: YOU USED *FEAR OF BEING A BAD PERSON*
+n: TU AS UTILISÉ *LA PEUR D'ÊTRE UNE PERSONNE MÉCHANTE*
 
 (#act1b)
 
@@ -326,7 +326,7 @@ b: Processed wheat will spike our blood sugar so they'll have to amputate all ou
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MOURIIIIIIIIIIIIIR
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -339,7 +339,7 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: YOU USED *FEAR OF BEING HARMED*
+n: TU AS UTILISÉ *LA PEUR D’ÊTRE BLESSÉ*
 
 (#act1b)
 
@@ -361,11 +361,11 @@ n: GET YOUR HUMAN'S ENERGY BAR TO ZERO
 
 n: TO PROTECT THEIR PHYSICAL + SOCIAL + MORAL NEEDS, YOU CAN USE:
 
-n: FEAR OF *BEING HARMED* #harm#
+n: LA PEUR *D’ÊTRE BLESSÉ* #harm#
 
-n: FEAR OF *BEING UNLOVED* #alone#
+n: LA PEUR *LA PEUR D'ÊTRE TOUT SEUL* #alone#
 
-n: AND FEAR OF *BEING A BAD PERSON* #bad#
+n: ET LA PEUR *D'ÊTRE UNE PERSONNE MÉCHANTE* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
