@@ -46,9 +46,9 @@ b: HUMAIN! Attends, nous sommes en danger! Le jouer...
 
 [...va encore nous faire souffrir!](#act1_replay_torture)
 
-[...ne trouvera pas de nouvelle fin!](#act1_replay_alternate)
+[...va ne trouver pas une fin nouvelle!](#act1_replay_alternate)
 
-[...va remarquera la différence entre le gameplay et le message du jeu!](#act1_replay_dissonance)
+[...va voir la différence entre le gameplay et le message du jeu!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
