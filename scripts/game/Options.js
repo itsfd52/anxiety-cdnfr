@@ -26,7 +26,7 @@ Loader.addSounds([
 			HOW_MANY_PROMPTS = 1;
 		}
 		Game.CLICK_TO_ADVANCE = !Game.CLICK_TO_ADVANCE;
-		text_automatic_toggle.innerHTML = Game.CLICK_TO_ADVANCE ? "au clic" : "automatiquement";
+		text_automatic_toggle.innerHTML = Game.CLICK_TO_ADVANCE ? "au clic" : "automatique";
 
 		// Sound
 		sfx( Game.CLICK_TO_ADVANCE ? "ui_button2" : "ui_button1");
@@ -145,7 +145,7 @@ Loader.addSounds([
 		div.innerHTML = "";
 
 		// What's the dialogue?
-		var dialogue = Game.TEXT_SPEED<80 ? "Parler aussi vite" : "Parler aussi lentement";
+		var dialogue = Game.TEXT_SPEED<80 ? "Parler aussi vite" : "Parler aussi lente";
 
 		// Put in the text
 		var span, chr;
