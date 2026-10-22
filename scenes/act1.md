@@ -271,20 +271,20 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Whip out your laptop and do some work right now!
+b: Prends ton ordinateur et se plonger dans le travail tout de suite!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--
+h: Euh.. Je préfère pas mettre mon sandwich dans les touches de mon--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If we're not contributing to the body of society then we're a society-parasite!
+b: Si on ne s'occupe pas, on est un parasite!
 
-b: The society-body will go to the society-doctor for medication to kill their society-parasites then we'll--
+b: Société va aller chez le médecin-société pour de médicaments-société qui éliminent ses parasites, alors on va--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
@@ -315,14 +315,14 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Have those studies been replicat--
+h: Ces études ont-elles été refait--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Processed wheat will spike our blood sugar so they'll have to amputate all our limbs and then we'll-
+b: Blé transformé va faire grimper notre glycémie, ils vont nous couper les bras et les jambes et ensuite on va-
 
 `bb({body:"panic"})`
 
@@ -349,17 +349,17 @@ n: IT'S SUPER EFFECTIVE
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: See, human? I am your loyal guard-wolf!
+b: Tu vois, humain? Je suis ton loup de garde dévoué!
 
 `bb({body:"pride_talk"});`
 
-b: Trust your gut! Your feelings are always valid!
+b: Faites confiance à votre instinct! Tes sentiments sont toujours légitimes!
 
 `bb({body:"pride"});`
 
-n: GET YOUR HUMAN'S ENERGY BAR TO ZERO
+n: RÉDUISEZ LA BARRE D'ÉNERGIE DE VOTRE HUMAIN À ZÉRO
 
-n: TO PROTECT THEIR PHYSICAL + SOCIAL + MORAL NEEDS, YOU CAN USE:
+n: POUR PROTÉGER LEUR SANTÉ PHYSIQUE, SOCIALE, ET MENTALE TU POUVEZ UTILISER:
 
 n: LA PEUR *D’ÊTRE BLESSÉ* #harm#
 
@@ -369,7 +369,7 @@ n: ET LA PEUR *D'ÊTRE UNE PERSONNE MÉCHANTE* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (PRO-TIP: PLAY THE CHOICES THAT PERSONALLY HIT YOUR DEEPEST, DARKEST FEARS!~)
+n4: (IDÉE INTELLIGENTE: CHOISISSEZ LES RÉPONSES QUI CORRESPONDENT LE MIEUX À VOS ANGOISSES!~)
 
 h: ...
 
