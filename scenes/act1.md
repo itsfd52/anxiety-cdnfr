@@ -345,7 +345,7 @@ n: TU AS UTILISÉ *LA PEUR D’ÊTRE BLESSÉ*
 
 # act1b
 
-n: IT'S SUPER EFFECTIVE
+n: ÇA A TRÈS BIEN MARCHÉ!
 
 `bb({mouth:"smile", eyes:"smile"});`
 
@@ -363,7 +363,7 @@ n: POUR PROTÉGER LEUR SANTÉ PHYSIQUE, SOCIALE, ET MENTALE TU POUVEZ UTILISER:
 
 n: LA PEUR *D’ÊTRE BLESSÉ* #harm#
 
-n: LA PEUR *LA PEUR D'ÊTRE TOUT SEUL* #alone#
+n: LA PEUR *D'ÊTRE TOUT SEUL* #alone#
 
 n: ET LA PEUR *D'ÊTRE UNE PERSONNE MÉCHANTE* #bad#
 
