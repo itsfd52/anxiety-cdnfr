@@ -383,18 +383,18 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: you know what maybe it's time to check my phone.
+h: tu sais quoi? je vais regarder mon téléphone
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: PROTECT YOUR HUMAN
+n: PROTÉGER TON HUMAIN
 
-n: FROM THE WORLD. FROM OTHER PEOPLE. FROM THEMSELF.
+n: DU LE MONDE. DES AUTRES. DE LUI-MÊME.
 
-n: GOOD LUCK
+n: BON CHANCE
 
 (...500)
 
@@ -408,33 +408,33 @@ n: GOOD LUCK
 
 `music('battle', {volume:0.5})`
 
-n: ROUND ONE: *FIGHT!*
+n: PREMIER ROND: *BATAILLE!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. Facebook feed says there's a party happening this weekend.
+h: Ah. Facebook dit qu'il y a un soirée cette fin de semaine.
 
 `bb({eyes:"uncertain"});`
 
-b: Doesn't that weirdo throw a party *every* weekend?
+b: Est ce qu'iel n'organisent pas un soirée *chaque* fin de semaine?
 
 `bb({eyes:"uncertain_right"});`
 
-b: What inner void are they trying to fill? They must be deeply messed up inside!
+b: Qu'est-ce qu'ils essaient de prouver? Il doit être tres cassé.
 
 `hong({eyes:"surprise"});`
 
-h: Also, I got an invite?
+h: Et.. J'ai reçue un invitation?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Well then!
+b: Eh bien!
 
-[Say yes, or we'll die from loneliness!](#act1c_loner)
+[Dis oui, ou on va mourir de solitude!](#act1c_loner)
 
-[Say no, it's full of poisonous drugs!](#act1c_drugs)
+[Dis non, c'est plein de substances toxiques!](#act1c_drugs)
 
-[Ignore it, we just make parties sad.](#act1c_sad)
+[Ne répondez pas, on gâche les soirées.](#act1c_sad)
 
 # act1c_loner
 
