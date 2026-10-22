@@ -76,7 +76,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 [V. Crédits]()
 {{/if}}
 
-[(main menu)](#intro-play-button) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
+[(menu)](#intro-play-button) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
 
 # to-credits
 
