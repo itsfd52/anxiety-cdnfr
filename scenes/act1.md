@@ -44,11 +44,11 @@ hong({body:"0_squeeze"});
 
 b: HUMAIN! Attends, nous sommes en danger! Le jouer...
 
-[...a encore nous faire souffrir!](#act1_replay_torture)
+[...va encore nous faire souffrir!](#act1_replay_torture)
 
 [...ne trouvera pas de nouvelle fin!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[...va remarquera la différence entre le gameplay et le message du jeu!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,32 +59,32 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: Iel va nous faire nous recroqueviller en boule et pleurer!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: Iel va nous obliger à casser ton téléphone parce que ça t'a rendu triste!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: Iel va nous fera éviter la violence physique!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: Iel va nous faire frapper l'hôte de la soirée!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: Eh, on ne se cassera peut-être pas la jambe cette fois-ci--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: IEL VA NOUS FORCER À SAUTER DU TOITURE.
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: TOUTES CES NOUVELLES CHOSES TERRIBLES VONT NOUS ARRIVER, PUIS NOUS ALLONS--
 
 (#act1_replay_end)
 
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: Oui, l'histoire *complet* est la même, mais chaque chapitre a deux fins, sans compter tous les dialogues--
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: Le joueur perdra tout son intérêt, iel va fermer son ordinateur et on va--
 
 (#act1_replay_end)
 
@@ -112,27 +112,27 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: La différence... quoi!?
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: Ce jeu invite à réfléchir à la manière dont tu devrais *CHOISIR* d'établir une bonne relation avec tes peurs,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: Mais si tu rejoues au jeu, tu retrouveras la même histoire, ce qui signifie que tes *CHOIX* n’ont aucune importance,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: C'est une contradiction,
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b: Qui détruit notre univers narratif,
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: Alors, on va--
 
 (#act1_replay_end)
 
@@ -164,13 +164,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: Bon, maintenant on reprenons nos rôles respectifs.
 
 ```
 Game.clearText();
 ```
 
-n4: (LAISSE _TON_ ANXÉTÉ BLA BLA BLA RESEMBLE _TON_ ANXIÉTÉ LE PLUS BLA BLA TU SAVEZ COMMENT ÇA MARCHE)
+n4: (LAISSE _TON_ ANXÉTÉ BLA BLA BLA RESEMBLE _TON_ ANXIÉTÉ LE PLUS BLA BLA TU SAVEZ COMMENT ÇA MARCHE MAINTENANT)
 
 ```
 sfx("squeak");
